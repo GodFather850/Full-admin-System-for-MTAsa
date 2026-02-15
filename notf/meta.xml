@@ -1,0 +1,26 @@
+<meta>
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+     <script src="moneynotf.lua" type="client" />
+    <export function="addNotification" type="shared" />
+    <file src="files/FontAwesome.otf" />
+    <file src="files/FontAwesome.ttf" />
+    <file src="files/Rubik-Black.ttf" />
+    <file src="files/Rubik-Regular.ttf" />
+    <file src="files/left.png" />
+    <file src="files/right.png" />
+
+    <!--Specioal Notf-->
+    	<info name="Simple Notifications" author="Jayceon" version="1.0.2" type="script" />
+
+	<script src="sourceC.lua" type="client" />
+	<script src="sourceS.lua" type="server" />
+	
+	<file src="files/fonts/roboto.ttf" />
+	<file src="files/fonts/icons.ttf" />
+	
+	<export function="addWarning" type="client" />
+	<export function="addWarning" type="server" />
+
+    <oop>true</oop>
+</meta>

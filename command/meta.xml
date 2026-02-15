@@ -1,0 +1,39 @@
+<meta>
+		<info author="LIGHTMTA.IR" name="Admin System" type="script" />
+		<script src="start.lua" type="server" />
+		<script src="admin_s.lua" type="server" />
+		<script src="admin_c.lua" type="client" cache="false" />
+
+		<script src="freecam.lua" type="client" cache="false" />
+	<!-- Gravity Gun -->
+		<script src="Gravity_Gun/ggun.lua" />
+		<script src="Gravity_Gun/ggunc.lua" type="client" cache="false" />
+		<export function="togglePlayerGravityGun" type="server" />
+		<export function="isGravityGunEnabled" type="server" />
+		<script src="Gravity_Gun/ggun_toggle.lua" type="server" />
+		<file src="files/shootlight.dff"></file>
+    <file src="files/smoke_flare.dff"></file>
+    <file src="files/fwSound.mp3"></file>
+    <file src="files/smoke30m.dff"></file>
+    <file src="files/pop.mp3"/>
+    <file src="files/shot.mp3"/>
+    <file src="files/spray-start.mp3"/>
+    <file src="files/spray.mp3"/>
+	<file src="files/bg.png"/>
+	<file src="Notif.mp3"/>
+	<file src="files/Stats.ttf"/>
+	<file src="files/GOTHIC.ttf"/>
+		
+	<script src="Rocket_S.lua" type="server" />
+    <script src="Rocket_C.lua" type="client" cache="false"/>
+	
+	
+	<!--- Special --->
+	<script src="Special/tirbar_c.lua" type="client" />
+	<script src="Special/tirbar_s.lua" type="server" />
+	
+	
+	<export function="CreateCr1" type="server" />
+	<export function="CreateCrClient" type="server" />
+		
+</meta>
