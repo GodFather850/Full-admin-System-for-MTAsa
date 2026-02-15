@@ -91,7 +91,7 @@ addCommandHandler("setnumber",function(thePlayer,cmd,target,days)
 				if isFreePhoneNumber(FinalWanted) then
 					outputChatBox("#00f7ff[Phone-Number]:#ffffff Shoma Numbere #00fff2"..getPlayerName(taraf).."#ffffff Ra Be #00ffea"..math.floor(FinalWanted).."#ffffff Set Kardid!",thePlayer,255,255,255,true)
 					-- accSys:SetPlayerData(taraf,"pNumber",math.floor(FinalWanted))
-					setElementData(accSys:getPlayerAcc(thePlayer), "pNumber", math.floor(FinalWanted))
+					setElementData(accSys:getPlayerAcc(taraf), "pNumber", math.floor(FinalWanted))
 					outputChatBox("Admin #ffa700"..getPlayerName(thePlayer).."#FFFFFF Shomareye #ffa700"..getPlayerName(taraf).."#FFFFFF ra Be #ffa700"..FinalWanted.."#FFFFFF Set Kard!",taraf,255,255,255,true)
 				else
 					outputChatBox("#FF0000[Error]:#FFFFFF In Number Male Kase Dige i Ast!",thePlayer,205,205,205,true)
@@ -6769,5 +6769,6 @@ function ( thePlayer, command )
 	end
 	
 end)
+
 
 
