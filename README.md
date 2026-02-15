@@ -157,3 +157,5 @@ Optimized for performance and stability.
 ## 👨‍💻 Developer
 
 Created by GodFather
+
+# -📜MTA Scripter • Linux Learner🐧 • python Learning Developer • Bash Scripter • Sql •🇺🇸🔥
